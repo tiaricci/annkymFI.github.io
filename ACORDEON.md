@@ -16,4 +16,7 @@
 - Registra el estado en la historia del repositorio (la bandera -m para poner una descripción)
  ### $ git log
 - Muestra el historial de commits que se han hecho (la bandera --oneline muestra cada entrada en una sola linea) también se le puede pasar el nombre de un archivo para ver el historial de éste
+### .gitignore
+- Este archivo permite ignorar archivos o directorios que no queremos que entren en el repositorio. Se pueden usar wildcards)
+
 
