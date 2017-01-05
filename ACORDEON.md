@@ -14,9 +14,15 @@
 - Agrega archivos al repositorio (la bandera -A agrega todos)
 ### $ git commit
 - Registra el estado en la historia del repositorio (la bandera -m para poner una descripción)
- ### $ git log
+### $ git log
 - Muestra el historial de commits que se han hecho (la bandera --oneline muestra cada entrada en una sola linea) también se le puede pasar el nombre de un archivo para ver el historial de éste
 ### .gitignore
 - Este archivo permite ignorar archivos o directorios que no queremos que entren en el repositorio. Se pueden usar wildcards)
-
-
+### $ git checkout
+- Permite movernos entre commits o ramas (lleva como argumento el id del commit o parte de el)
+### $ git revert
+- Hace un revert a un cambio ya registrado creando un nuevo commit (lleva como argumento el id del commit a revertir)
+### $ git reset
+- Regresa al último estado guardado, borrando permanentemente cualquier cambio en el área de pruebas (lleva la bandera --hard) Borra lo que hemos dado add pero no commit
+### $ git clean
+- Borra los archivos que no estén en el seguimiento pero estan en la carpeta (lleva la bandera -f para forzarlo)
