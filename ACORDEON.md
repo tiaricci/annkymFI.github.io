@@ -26,3 +26,9 @@
 - Regresa al último estado guardado, borrando permanentemente cualquier cambio en el área de pruebas (lleva la bandera --hard) Borra lo que hemos dado add pero no commit
 ### $ git clean
 - Borra los archivos que no estén en el seguimiento pero estan en la carpeta (lleva la bandera -f para forzarlo)
+### $ git branch
+-  Crea un branch (si va sin parametros muestra las ramas) si se le pasa el argumento nombre lo utiliza para crear la rama con este nombre
+### $ git merge
+- Fusiona dos ramas, una rama objetivo con la rama donde nos encontramos (recibe como parámetro la rama objetivo)
+### $ git diff
+- Muestra las diferencias entre el archivo modificado y la version anterior (antes de hacer el add)
