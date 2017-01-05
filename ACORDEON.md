@@ -32,3 +32,6 @@
 - Fusiona dos ramas, una rama objetivo con la rama donde nos encontramos (recibe como parámetro la rama objetivo)
 ### $ git diff
 - Muestra las diferencias entre el archivo modificado y la version anterior (antes de hacer el add)
+- 
+### gitkraken
+- Editor modo grafico para git
