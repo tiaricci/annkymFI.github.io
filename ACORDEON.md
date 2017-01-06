@@ -35,3 +35,31 @@
 - 
 ### gitkraken
 - Editor modo grafico para git
+### Repositorio remoto
+- Se encuentra alojado en un servidor externo, puede ser accedido por uno o varios colaboradores. Puede ser centralizado o distribuido
+### $ git remote add <nombre> <url>
+- Agrega un repositorio remoto (el nombre generalmente es: origin)
+### $ git remote remove <nombre>
+- Quita un repositorio remoto
+### $ git pull
+- Trae los ultimos cambios del repositorio remoto. Recibe como argumentos el nombre del remoto y el branch
+### $ git push
+- Manda los cambios al repositorio remoto. Recibe como argumentos el nombre del remoto y el branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
